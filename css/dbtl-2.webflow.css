@@ -602,12 +602,12 @@ p {
 
 .button-scope.tab-button.tab-button-active {
   height: 20rem;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 
 .button-scope.tab-button.build-wet1 {
   height: 20rem;
-  margin-top: 110px;
+  margin-top: 0px;
 }
 
 .button-review {
@@ -636,7 +636,7 @@ p {
 
 .button-review.tab-button {
   left: 360px;
-  top: 420px;
+  top: 300px;
   right: -8%;
   width: 23rem;
   height: 21rem;
@@ -669,8 +669,12 @@ p {
 
 .button-reco.tab-button {
   left: 0%;
-  top: 400px;
+  top: 300px;
   width: 23rem;
+}
+
+.button-reco.tab-button.learn-wet1 {
+  top: 300px;
 }
 
 .button-agreement {
@@ -699,7 +703,11 @@ p {
 
 .button-agreement.tab-button {
   height: 20rem;
-  margin-top: 100px;
+  margin-top: 0px;
+}
+
+.button-agreement.tab-button.design-wet-1 {
+  margin-top: 0px;
 }
 
 .text-block {
